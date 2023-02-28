@@ -1,0 +1,83 @@
+<!doctype html>
+<html>
+    <head>
+        <title>CV Jorge Terreno</title>
+        <link rel="stylesheet" href="CV.css">
+
+    </head>
+    <body>
+        <script src="CV.JS"></script>
+
+        <h1><img src="cv.jpg" alt="Imagen de persona" class="Img_Persona">- JORGE LUIS TERRENO -</h1>
+        <br><br><br><br>
+                
+        <button class="Btn_Tema" id="Btn_Tema" onclick="changeTema()">Tema Oscuro...</button>
+        <button class="Btn_Contacto" id="Btn_Contacto" onclick="openFormContacto()">Contacto...</button>
+
+        <form class="F_Contacto" id="Form_Contacto" action="">
+            <fieldset><legend> <b>Contacto</b> </legend>
+                <label for="F_Nombre"><b>Nombre:</b></label>
+                <input class="F_Contacto" type="text" required='required' name="F_Nombre" id="F_Nombre"><br>
+                <label for="F_Email"><b>email:</b></label>
+                <input class="F_Contacto" type="email" required='required' name="F_Email" id="F_Email"><br>
+                <textarea class="F_Contacto" required='required' name="F_Mensaje" id="F_Mensaje" rows="10" cols="30">Deje su mensaje...</textarea><br>
+                <input type="submit" onclick="validaContacto()">
+            </fieldset>
+        </form>
+
+
+
+        <h2>DATOS PERSONALES</h2>
+            <ul class="ul1">
+                <li><strong class="strong1">Nacimiento:</strong> 07/01/1983.</li>
+                <li><strong class="strong1">Domicilio:</strong> 25 de mayo 1054.</li>
+                <li><strong class="strong1">Localidad:</strong> General Cabrera, Córdoba.</li>
+                <li><strong class="strong1">Teléfono:</strong> 358-5603730</li>
+                <li><strong class="strong1">Correo:</strong> jorge.terreno@outlook.com</li>
+            </ul>
+        <h2>EXPERIENCIA LABORAL</h2>
+        <ul class="ul2">
+            <li>2011/Actualidad: Jefe Administrativo Contable 
+                <p>Área administrativa. Sector contable - Ponedoras Sur S.A. - General Cabrera, Córdoba.</p>
+            </li>
+            <li>2004/2011: Desarrollo de software- Administrativo Contable.
+                <p>Desarrollo de software en Visual Basic y SQL-Access. - Estudio Contable Scapin & Asoc. - Río Cuarto, Córdoba.</p>
+            </li>
+            <li>2003/2006: Ayudante cátedra de Informática
+                <p>Ayudante de Cátedra en Computación y Tecnología de la Información. - Facultad de Cs. Económicas UNRC - Río Cuarto, Córdoba.</p>
+            </li>
+        </ul>
+        <h2>FORMACION ACADEMICA</h2>
+            <ul class="ul2">
+                <li>2002/2013: Carrera de Grado - Contador Público Nacional. 
+                    <p>Estudios universitarios. • Contador Público. • Universidad Nacional de Río Cuarto, Córdoba.</p>
+                </li>
+                <li>2000/2008: Estudios secundarios.
+                    <p>Orientación en “Bachiller en Economía y Gestión de las Organizaciones”. • Instituto Superior Jerónimo Luis de Cabrera. • General Cabrera, Córdoba.</p>
+                </li> 
+                <li>Cursos y Capacitaciones
+                    <ul class="ul3">
+                        <li> <b>2017:</b> Gestión de seguridad de la información.</li>
+                        <li> <b>2021:</b> Curso SQL - Sololearn.</li>
+                        <li> <b>2022:</b> Se Programar del trayecto formativo INTI - 1er etapa - Lenguajes Gobston, JS, Ruby.</li>
+                        <li> <b>2022:</b> Fundamentos de codificación I, II, III, Métodos de Arreglo, Animaciones I y II de JavaScript. - Grasshoper.</li>
+                    </ul>
+                </li> 
+            </ul>
+        <h2>OBJETIVOS</h2>
+            <ul class="ul3">
+                <li>Adquirir experiencia e integración laboral para desarrollarme plenamente, tanto en el ámbito profesional como en el personal.</li>
+                <li>Aplicar los conocimientos adquiridos en mi formación académica, mis capacidades y habilidades; como así también demostrar que puedo desempeñarme en cualquier tarea asignada.</li>
+                <li>Consolidarme profesionalmente, y de esta manera obtener oportunidades de desarrollo.</li>
+            </ul>
+        <h2>OTROS CONOCIMIENTOS</h2>
+            <ul class="ul3">
+                <li>Idioma inglés - Nivel Básico.</li>
+                <li>Manejo de Herramientas ofimáticas - Paquete office</li>
+                <li>Manejo de WEB AFIP</li>
+                <li>Operaciones Bancarias</li>
+                <li>Exploradores de internet y Redes sociales</li>
+            </ul>
+    </body>
+
+</html>
