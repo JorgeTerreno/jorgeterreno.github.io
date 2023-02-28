@@ -1,0 +1,67 @@
+button {
+    border: none;
+    color: white;
+    padding: 7px 14px;
+    cursor: pointer;
+    border-radius: 20px;
+  }
+
+.Btn_Tema {background-color: #04AA6D;} /* Green */
+.Btn_Tema:hover {background-color: #46a049;}
+
+.Btn_Contacto {background-color: #077eee;} /* Green */
+.Btn_Contacto:hover {background-color: #0758ee;}
+
+.F_Contacto {
+    display:none;
+    font-family:monospace;
+    margin: 4px;
+}
+.Img_Persona{
+padding: 0px;
+width: 120px;
+height:auto;
+border-radius: 100%;
+float: left;
+}
+
+input{
+    margin: 4px;
+}
+
+h1{
+    font-family: cursive;
+    text-align: center;
+    color: #0758ee;
+}
+
+h2{
+    font-size: 20px;
+    font-family: calibri;
+    color: blue;
+    background-color: rgba(208, 230, 9, 0.432);
+}
+.ul1{
+    list-style-type: square;
+    font-style: italic;
+}
+.strong1{
+    font-style: normal;
+    color: green;
+}
+.ul2{
+    list-style-type: disc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.ul3{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: normal;
+}
+body{
+    background-color: lightcyan;
+}
